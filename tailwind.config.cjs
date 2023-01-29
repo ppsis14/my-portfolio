@@ -12,7 +12,7 @@ module.exports = {
         "secondary-green": "#b2dddd",
         "secondary-pink": "#ff7bda",
       },
-      backgroundColor: ({ theme }) => ({
+      backgroundImage: (theme) => ({
         "gradient-space-1": "linear-gradient(to right, #434343 0%, black 100%)",
         "gradient-space-btt":
           "linear-gradient(to top, #0d0d12, #131219, #17161f, #1c1a26, #211d2c, #221e2e, #231e30, #241f32, #201d31, #1d1b30, #18192f, #14172e)",
@@ -22,10 +22,15 @@ module.exports = {
           "linear-gradient(to left bottom, #020207, #07060d, #0b0a12, #0f0e16, #131119, #16141c, #191720, #1c1923, #201d27, #25212b, #292630, #2e2a34)",
         "gradient-space-ltr":
           "linear-gradient(to right, #020207, #07060d, #0b0a12, #0f0e16, #131119, #16141c, #191720, #1c1923, #201d27, #25212b, #292630, #2e2a34)",
-        "gradient-brush-1":
-          "linear-gradient(to top, #cc208e 0%, #6713d2 100%);",
+        "gradient-brush-1": "linear-gradient(to top, #cc208e 0%, #6713d2 100%)",
         "gradient-brush-2":
-          "linear-gradient(to right, #ec77ab 0%, #7873f5 100%);",
+          "linear-gradient(to right, #ec77ab 0%, #7873f5 100%)",
+        "gradient-brush-3":
+          "linear-gradient(to right top, #051937, #032869, #2f329a, #6731c6, #a912eb)",
+        "gradient-brush-4":
+          "linear-gradient(to right top, #4f1492, #0063d8, #0098e7, #00c5c7, #12eb96)",
+        "gradient-brush-5":
+          "linear-gradient(to right top, #4f1492, #0063d8, #0098e7, #00c5c7, #12eb96)",
       }),
       fontFamily: {
         work: ["Work Sans", "sans-serif"],
